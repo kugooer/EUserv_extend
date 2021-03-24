@@ -1,5 +1,8 @@
 name: 'EUserv Auto Extend'
 
+schedule:
+  - cron: '50 1 * * 0,3'
+  
 on:
   workflow_dispatch:
 
